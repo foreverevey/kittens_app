@@ -1,9 +1,14 @@
 import React from 'react';
-import {View, Text, StyleSheet, Image, FlatList, TouchableOpacity, Dimensions} from 'react-native';
-// import { useNavigation } from '@react-navigation/native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  FlatList,
+  TouchableOpacity,
+  Dimensions} from 'react-native';
 
 const KittenList = ({ title, data, navigation}) => {
-  // const navigation = useNavigation();
   const screenHeight = Dimensions.get('window').height;
   const screenWidth = Dimensions.get('window').width;
 
@@ -28,9 +33,7 @@ const KittenList = ({ title, data, navigation}) => {
               </TouchableOpacity>
             </>
             );
-            }
-          }
-          />
+            }}/>
     </View>
   );
 };

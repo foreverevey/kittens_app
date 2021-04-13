@@ -9,10 +9,13 @@
   },
   "dependencies": {
     "@react-native-community/netinfo": "^6.0.0",
+    "@react-native-community/slider": "^3.0.3",
     "axios": "^0.21.1",
     "expo": "~40.0.0",
     "expo-app-loading": "^1.0.1",
     "expo-status-bar": "~1.0.3",
+    "lodash": "^4.17.21",
+    "lorem-ipsum": "^2.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
